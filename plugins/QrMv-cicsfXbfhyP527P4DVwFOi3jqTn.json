@@ -1,0 +1,1272 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian42-brat",
+        "version": "1.0.0",
+        "title": "BRAT",
+        "description": "BRAT Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "了解我的更多工作：",
+                    "target": "了解我的更多工作："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "选择一个版本",
+                    "target": "选择一个版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "latest",
+                    "target": "latest"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "最新版本",
+                    "target": "最新版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "更改插件版本：",
+                    "target": "更改插件版本："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "为此仓库使用令牌",
+                    "target": "为此仓库使用令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "安装插件后启用",
+                    "target": "安装插件后启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "插件：",
+                    "target": "插件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "因为此插件表示该应用程序的Obsidian版本需要",
+                    "target": "因为此插件表示该应用程序的Obsidian版本需要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "，但当前安装的Obsidian版本为",
+                    "target": "，但当前安装的Obsidian版本为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "不建议使用此插件，可能无法按预期工作。使用风险自负。",
+                    "target": "不建议使用此插件，可能无法按预期工作。使用风险自负。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "您仍然想安装它吗？",
+                    "target": "您仍然想安装它吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "对于此插件而言，这个插件",
+                    "target": "对于此插件而言，这个插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "，但您正在使用移动设备。",
+                    "target": "，但您正在使用移动设备。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "你想在手机上强制运行它吗？",
+                    "target": "你想在手机上强制运行它吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "coffee",
+                    "target": "coffee"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "form",
+                    "target": "form"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "hr",
+                    "target": "hr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BRAT\nGitHub API 速率限制已超出：",
+                    "target": "BRAT\nGitHub API 速率限制已超出："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "令牌验证错误：",
+                    "target": "令牌验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BRAT：验证仓库 ",
+                    "target": "BRAT：验证仓库 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法加载设置：",
+                    "target": "无法加载设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "No custom daily note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "No custom weekly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "No custom monthly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "No custom quarterly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "No custom yearly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "私有仓库错误",
+                    "target": "私有仓库错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "获取发布版本时出错",
+                    "target": "获取发布版本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "从仓库获取发布文件时出错",
+                    "target": "从仓库获取发布文件时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "获取社区插件列表时出错",
+                    "target": "获取社区插件列表时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "获取社区主题列表时出错",
+                    "target": "获取社区主题列表时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "获取社区主题CSS文件时出错",
+                    "target": "获取社区主题CSS文件时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "获取社区主题清单文件时出错",
+                    "target": "获取社区主题清单文件时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "获取文件最后提交信息时出错",
+                    "target": "获取文件最后提交信息时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "GitHub 请求失败：",
+                    "target": "GitHub 请求失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "BRAT: 添加插件",
+                    "target": "BRAT: 添加插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "BRAT: rFiles.manifest",
+                    "target": "BRAT: rFiles.manifest"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "BRAT - 本地清单加载",
+                    "target": "BRAT - 本地清单加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "重新加载插件",
+                    "target": "重新加载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "BRAT：未检测到网络。",
+                    "target": "BRAT：未检测到网络。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "BRAT：最后在线更新",
+                    "target": "BRAT：最后在线更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "添加主题按钮已点击",
+                    "target": "添加主题按钮已点击"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加插件",
+                    "target": "添加插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "验证",
+                    "target": "验证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "有效",
+                    "target": "有效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "无效",
+                    "target": "无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "正在安装 …",
+                    "target": "正在安装 …"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加主题",
+                    "target": "添加主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加测试版插件",
+                    "target": "添加测试版插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "再次点击以确认移除",
+                    "target": "再次点击以确认移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加测试版主题",
+                    "target": "添加测试版主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仓库",
+                    "target": "仓库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果启用，测试版插件将在安装后默认自动启用。注意：你可以在‘添加插件’表单中为每个插件切换此设置。",
+                    "target": "如果启用，测试版插件将在安装后默认自动启用。注意：你可以在‘添加插件’表单中为每个插件切换此设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果启用，每次 Obsidian 启动时将检查所有测试版插件的更新。注意：这不会更新固定版本的插件。",
+                    "target": "如果启用，每次 Obsidian 启动时将检查所有测试版插件的更新。注意：这不会更新固定版本的插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果启用，每次 Obsidian 启动时将检查所有测试版主题的更新。",
+                    "target": "如果启用，每次 Obsidian 启动时将检查所有测试版主题的更新。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果启用此功能，则在添加新插件时，将默认选择最新版本。",
+                    "target": "如果启用此功能，则在添加新插件时，将默认选择最新版本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果启用，将允许安装应用程序版本更高的插件。此外，它还允许在移动设备上安装仅限桌面的插件。",
+                    "target": "如果启用，将允许安装应用程序版本更高的插件。此外，它还允许在移动设备上安装仅限桌面的插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "BRAT 将为其各种活动提供弹窗通知。关闭此选项意味着 BRAT 不会发送通知。",
+                    "target": "BRAT 将为其各种活动提供弹窗通知。关闭此选项意味着 BRAT 不会发送通知。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "插件更新将被记录到日志文件中。",
+                    "target": "插件更新将被记录到日志文件中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "日志将保存到此文件。不要在文件名中添加 .md。",
+                    "target": "日志将保存到此文件。不要在文件名中添加 .md。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在日志中获取更多信息。",
+                    "target": "在日志中获取更多信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "原子弹级别的控制台日志记录。可用于故障排查和开发。",
+                    "target": "原子弹级别的控制台日志记录。可用于故障排查和开发。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "安装后自动启用插件",
+                    "target": "安装后自动启用插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启动时自动更新插件",
+                    "target": "启动时自动更新插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启动时自动更新主题",
+                    "target": "启动时自动更新主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认选择最新版本插件",
+                    "target": "默认选择最新版本插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "允许不兼容的插件",
+                    "target": "允许不兼容的插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "测试版插件列表",
+                    "target": "测试版插件列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "测试版主题列表",
+                    "target": "测试版主题列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "监控",
+                    "target": "监控"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用通知",
+                    "target": "启用通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用日志记录",
+                    "target": "启用日志记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "BRAT 日志文件位置",
+                    "target": "BRAT 日志文件位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用详细日志记录",
+                    "target": "启用详细日志记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "调试模式",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "个人访问令牌",
+                    "target": "个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "存储库（示例：https://github.com/GitHubUserName/repository-name)",
+                    "target": "存储库（示例：https://github.com/GitHubUserName/repository-name)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "私有仓库的 GitHub API 密钥",
+                    "target": "私有仓库的 GitHub API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "存储库（示例：https://github.com/GitHubUserName/repository-name",
+                    "target": "存储库（示例：https://github.com/GitHubUserName/repository-name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "示例：BRAT日志",
+                    "target": "示例：BRAT日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入您的个人访问令牌",
+                    "target": "输入您的个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "未提供令牌",
+                    "target": "未提供令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "令牌验证失败",
+                    "target": "令牌验证失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "测试版插件的 GitHub 仓库：",
+                    "target": "测试版插件的 GitHub 仓库："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "输入 GitHub 仓库地址以进行验证。",
+                    "target": "输入 GitHub 仓库地址以进行验证。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "必须提供仓库地址。",
+                    "target": "必须提供仓库地址。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "正在验证仓库地址...",
+                    "target": "正在验证仓库地址..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "错误: 此仓库未找到任何版本。",
+                    "target": "错误: 此仓库未找到任何版本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "未找到仓库。请检查地址或提供有效的令牌以访问私有仓库。",
+                    "target": "未找到仓库。请检查地址或提供有效的令牌以访问私有仓库。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "访问被拒绝。请检查你的个人访问令牌。",
+                    "target": "访问被拒绝。请检查你的个人访问令牌。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "选择版本",
+                    "target": "选择版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "检查并更新插件",
+                    "target": "检查并更新插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "更改版本",
+                    "target": "更改版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "移除此测试版插件",
+                    "target": "移除此测试版插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "删除此测试版主题",
+                    "target": "删除此测试版主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "清除个人访问令牌",
+                    "target": "清除个人访问令牌"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法读取每日笔记模板",
+                    "target": "无法读取每日笔记模板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法创建新文件。",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "brat-token-status valid",
+                    "target": "brat-token-status valid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid token format",
+                    "target": "Invalid token format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No error",
+                    "target": "No error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Token has expired",
+                    "target": "Token has expired"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Token lacks required scopes. Check documentation for requirements.",
+                    "target": "Token lacks required scopes. Check documentation for requirements."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插件：添加测试版插件（可指定版本或不指定）",
+                    "target": "插件：添加测试版插件（可指定版本或不指定）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插件：检查所有测试版插件的更新并执行更新",
+                    "target": "插件：检查所有测试版插件的更新并执行更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插件：仅检查测试版插件的更新但不执行更新",
+                    "target": "插件：仅检查测试版插件的更新但不执行更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插件：选择单个插件版本进行更新",
+                    "target": "插件：选择单个插件版本进行更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插件：选择单个插件重新安装",
+                    "target": "插件：选择单个插件重新安装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插件：重新启动已安装的插件",
+                    "target": "插件：重新启动已安装的插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插件：禁用插件 - 关闭",
+                    "target": "插件：禁用插件 - 关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插件：启用插件 - 开启",
+                    "target": "插件：启用插件 - 开启"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插件：打开插件的 GitHub 仓库",
+                    "target": "插件：打开插件的 GitHub 仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "主题：打开主题（外观）的 GitHub 仓库",
+                    "target": "主题：打开主题（外观）的 GitHub 仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插件：打开插件设置选项卡",
+                    "target": "插件：打开插件设置选项卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "主题：从 GitHub 仓库获取测试版主题",
+                    "target": "主题：从 GitHub 仓库获取测试版主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "主题：更新测试版主题",
+                    "target": "主题：更新测试版主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "所有命令列表",
+                    "target": "所有命令列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✓ 令牌有效",
+                    "target": "✓ 令牌有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "TFTHacker",
+                    "target": "TFTHacker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "johannrichard",
+                    "target": "johannrichard"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "isDesktopOnly: true",
+                    "target": "isDesktopOnly: true"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "测试版主题的 GitHub 仓库：",
+                    "target": "测试版主题的 GitHub 仓库："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "以下是通过“添加测试版插件”命令添加的测试版插件列表。你可以选择添加最新版本或固定版本。固定版本是基于其发布标签的特定插件版本。",
+                    "target": "以下是通过“添加测试版插件”命令添加的测试版插件列表。你可以选择添加最新版本或固定版本。固定版本是基于其发布标签的特定插件版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "点击插件旁边的‘编辑’按钮更改安装的版本，点击 x 按钮从列表中移除插件。",
+                    "target": "点击插件旁边的‘编辑’按钮更改安装的版本，点击 x 按钮从列表中移除插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "注意：",
+                    "target": "注意："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "从列表中移除不会删除插件，应在设置中的社区插件面板中进行删除。",
+                    "target": "从列表中移除不会删除插件，应在设置中的社区插件面板中进行删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "你的 GitHub 账户设置",
+                    "target": "你的 GitHub 账户设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"无法读取每日笔记模板\")",
+                    "target": "Notice(\"无法读取每日笔记模板\")"
+                },
+                {
+                    "source": "Notice(\"无法创建新文件。\")",
+                    "target": "Notice(\"无法创建新文件。\")"
+                },
+                {
+                    "source": "log(\"私有仓库错误\",s,i),!1}},bt=async(n,e=!0,t=\"\")",
+                    "target": "log(\"私有仓库错误\",s,i),!1}},bt=async(n,e=!0,t=\"\")"
+                },
+                {
+                    "source": "log(\"获取发布版本时出错\",s,i),null}},Y=async(n,e,t=!0,s=!1,i=\"\")",
+                    "target": "log(\"获取发布版本时出错\",s,i),null}},Y=async(n,e,t=!0,s=!1,i=\"\")"
+                },
+                {
+                    "source": "setText(\"未提供令牌\")",
+                    "target": "setText(\"未提供令牌\")"
+                },
+                {
+                    "source": "error(\"令牌验证错误：\",f),(E=this.tokenEl)==null||E.inputEl.addClass(\"invalid-input\")",
+                    "target": "error(\"令牌验证错误：\",f),(E=this.tokenEl)==null||E.inputEl.addClass(\"invalid-input\")"
+                },
+                {
+                    "source": "setText(\"令牌验证失败\")",
+                    "target": "setText(\"令牌验证失败\")"
+                },
+                {
+                    "source": "setButtonText(\"添加插件\")",
+                    "target": "setButtonText(\"添加插件\")"
+                },
+                {
+                    "source": "appendText(\"更改插件版本：\")",
+                    "target": "appendText(\"更改插件版本：\")"
+                },
+                {
+                    "source": "setText(\"测试版插件的 GitHub 仓库：\")",
+                    "target": "setText(\"测试版插件的 GitHub 仓库：\")"
+                },
+                {
+                    "source": "setPlaceholder(\"存储库（示例：https://github.com/GitHubUserName/repository-name)\")",
+                    "target": "setPlaceholder(\"存储库（示例：https://github.com/GitHubUserName/repository-name)\")"
+                },
+                {
+                    "source": "setDesc(\"仓库\")",
+                    "target": "setDesc(\"仓库\")"
+                },
+                {
+                    "source": "setText(\"输入 GitHub 仓库地址以进行验证。\")",
+                    "target": "setText(\"输入 GitHub 仓库地址以进行验证。\")"
+                },
+                {
+                    "source": "appendText(\"为此仓库使用令牌\")",
+                    "target": "appendText(\"为此仓库使用令牌\")"
+                },
+                {
+                    "source": "setPlaceholder(\"私有仓库的 GitHub API 密钥\")",
+                    "target": "setPlaceholder(\"私有仓库的 GitHub API 密钥\")"
+                },
+                {
+                    "source": "setButtonText(\"验证\")",
+                    "target": "setButtonText(\"验证\")"
+                },
+                {
+                    "source": "setButtonText(\"有效\")",
+                    "target": "setButtonText(\"有效\")"
+                },
+                {
+                    "source": "setButtonText(\"无效\")",
+                    "target": "setButtonText(\"无效\")"
+                },
+                {
+                    "source": "appendText(\"安装插件后启用\")",
+                    "target": "appendText(\"安装插件后启用\")"
+                },
+                {
+                    "source": "setButtonText(\"取消\")",
+                    "target": "setButtonText(\"取消\")"
+                },
+                {
+                    "source": "appendText(\"和\")",
+                    "target": "appendText(\"和\")"
+                },
+                {
+                    "source": "log(`[BRAT] 为 ${this.address} 更新版本下拉菜单，选择版本 ${t}`)",
+                    "target": "log(`[BRAT] 为 ${this.address} 更新版本下拉菜单，选择版本 ${t}`)"
+                },
+                {
+                    "source": "setText(\"必须提供仓库地址。\")",
+                    "target": "setText(\"必须提供仓库地址。\")"
+                },
+                {
+                    "source": "setText(\"正在验证仓库地址...\")",
+                    "target": "setText(\"正在验证仓库地址...\")"
+                },
+                {
+                    "source": "setText(\"错误: 此仓库未找到任何版本。\")",
+                    "target": "setText(\"错误: 此仓库未找到任何版本。\")"
+                },
+                {
+                    "source": "setText(`GitHub API 速率限制已超出. Try again in ${m.getMinutesToReset()} minutes.`)",
+                    "target": "setText(`GitHub API 速率限制已超出. Try again in ${m.getMinutesToReset()} minutes.`)"
+                },
+                {
+                    "source": "setText(\"未找到仓库。请检查地址或提供有效的令牌以访问私有仓库。\")",
+                    "target": "setText(\"未找到仓库。请检查地址或提供有效的令牌以访问私有仓库。\")"
+                },
+                {
+                    "source": "setText(\"访问被拒绝。请检查你的个人访问令牌。\")",
+                    "target": "setText(\"访问被拒绝。请检查你的个人访问令牌。\")"
+                },
+                {
+                    "source": "setText(`错误: ${E.message}`)",
+                    "target": "setText(`错误: ${E.message}`)"
+                },
+                {
+                    "source": "error(`BRAT：验证仓库 ${a}`)",
+                    "target": "error(`BRAT：验证仓库 ${a}`)"
+                },
+                {
+                    "source": "log(\"BRAT: 添加插件\",e,t,s,i,o,r,a,u?\"私有\":\"公开\")",
+                    "target": "log(\"BRAT: 添加插件\",e,t,s,i,o,r,a,u?\"私有\":\"公开\")"
+                },
+                {
+                    "source": "appendText(\"插件：\")",
+                    "target": "appendText(\"插件：\")"
+                },
+                {
+                    "source": "appendText(\"这\")",
+                    "target": "appendText(\"这\")"
+                },
+                {
+                    "source": "appendText(\"因为此插件表示该应用程序的Obsidian版本需要\")",
+                    "target": "appendText(\"因为此插件表示该应用程序的Obsidian版本需要\")"
+                },
+                {
+                    "source": "appendText(\"，但当前安装的Obsidian版本为\")",
+                    "target": "appendText(\"，但当前安装的Obsidian版本为\")"
+                },
+                {
+                    "source": "appendText(\"不建议使用此插件，可能无法按预期工作。使用风险自负。\")",
+                    "target": "appendText(\"不建议使用此插件，可能无法按预期工作。使用风险自负。\")"
+                },
+                {
+                    "source": "appendText(\"您仍然想安装它吗？\")",
+                    "target": "appendText(\"您仍然想安装它吗？\")"
+                },
+                {
+                    "source": "appendText(\"对于此插件而言，这个插件\")",
+                    "target": "appendText(\"对于此插件而言，这个插件\")"
+                },
+                {
+                    "source": "appendText(\"，但您正在使用移动设备。\")",
+                    "target": "appendText(\"，但您正在使用移动设备。\")"
+                },
+                {
+                    "source": "appendText(\"你想在手机上强制运行它吗？\")",
+                    "target": "appendText(\"你想在手机上强制运行它吗？\")"
+                },
+                {
+                    "source": "log(`${A}[发布信息](https://github.com/${e}/releases/tag/${c.version})`,!0),T(this.plugin,A,30,()=>{c&&window.open(`https://github.com/${e}/releases/tag/${c.version}`)",
+                    "target": "log(`${A}[发布信息](https://github.com/${e}/releases/tag/${c.version})`,!0),T(this.plugin,A,30,()=>{c&&window.open(`https://github.com/${e}/releases/tag/${c.version}`)"
+                },
+                {
+                    "source": "log(`${ce}[发布信息](https://github.com/${e}/releases/tag/${c.version})`,!0),T(this.plugin,ce,30,()=>{c&&window.open(`https://github.com/${e}/releases/tag/${c.version}`)",
+                    "target": "log(`${ce}[发布信息](https://github.com/${e}/releases/tag/${c.version})`,!0),T(this.plugin,ce,30,()=>{c&&window.open(`https://github.com/${e}/releases/tag/${c.version}`)"
+                },
+                {
+                    "source": "log(\"BRAT：未检测到网络。\")",
+                    "target": "log(\"BRAT：未检测到网络。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"存储库（示例：https://github.com/GitHubUserName/repository-name\")",
+                    "target": "setPlaceholder(\"存储库（示例：https://github.com/GitHubUserName/repository-name\")"
+                },
+                {
+                    "source": "setButtonText(\"添加主题\")",
+                    "target": "setButtonText(\"添加主题\")"
+                },
+                {
+                    "source": "log(\"添加主题按钮已点击\")",
+                    "target": "log(\"添加主题按钮已点击\")"
+                },
+                {
+                    "source": "setName(\"安装后自动启用插件\")",
+                    "target": "setName(\"安装后自动启用插件\")"
+                },
+                {
+                    "source": "setDesc(\"如果启用，测试版插件将在安装后默认自动启用。注意：你可以在‘添加插件’表单中为每个插件切换此设置。\")",
+                    "target": "setDesc(\"如果启用，测试版插件将在安装后默认自动启用。注意：你可以在‘添加插件’表单中为每个插件切换此设置。\")"
+                },
+                {
+                    "source": "setName(\"启动时自动更新插件\")",
+                    "target": "setName(\"启动时自动更新插件\")"
+                },
+                {
+                    "source": "setDesc(\"如果启用，每次 Obsidian 启动时将检查所有测试版插件的更新。注意：这不会更新固定版本的插件。\")",
+                    "target": "setDesc(\"如果启用，每次 Obsidian 启动时将检查所有测试版插件的更新。注意：这不会更新固定版本的插件。\")"
+                },
+                {
+                    "source": "setName(\"启动时自动更新主题\")",
+                    "target": "setName(\"启动时自动更新主题\")"
+                },
+                {
+                    "source": "setDesc(\"如果启用，每次 Obsidian 启动时将检查所有测试版主题的更新。\")",
+                    "target": "setDesc(\"如果启用，每次 Obsidian 启动时将检查所有测试版主题的更新。\")"
+                },
+                {
+                    "source": "setName(\"默认选择最新版本插件\")",
+                    "target": "setName(\"默认选择最新版本插件\")"
+                },
+                {
+                    "source": "setDesc(\"如果启用此功能，则在添加新插件时，将默认选择最新版本。\")",
+                    "target": "setDesc(\"如果启用此功能，则在添加新插件时，将默认选择最新版本。\")"
+                },
+                {
+                    "source": "setName(\"允许不兼容的插件\")",
+                    "target": "setName(\"允许不兼容的插件\")"
+                },
+                {
+                    "source": "setDesc(\"如果启用，将允许安装应用程序版本更高的插件。此外，它还允许在移动设备上安装仅限桌面的插件。\")",
+                    "target": "setDesc(\"如果启用，将允许安装应用程序版本更高的插件。此外，它还允许在移动设备上安装仅限桌面的插件。\")"
+                },
+                {
+                    "source": "setName(\"测试版插件列表\")",
+                    "target": "setName(\"测试版插件列表\")"
+                },
+                {
+                    "source": "setButtonText(\"添加测试版插件\")",
+                    "target": "setButtonText(\"添加测试版插件\")"
+                },
+                {
+                    "source": "setTooltip(\"检查并更新插件\")",
+                    "target": "setTooltip(\"检查并更新插件\")"
+                },
+                {
+                    "source": "setTooltip(\"更改版本\")",
+                    "target": "setTooltip(\"更改版本\")"
+                },
+                {
+                    "source": "setTooltip(\"移除此测试版插件\")",
+                    "target": "setTooltip(\"移除此测试版插件\")"
+                },
+                {
+                    "source": "setButtonText(\"再次点击以确认移除\")",
+                    "target": "setButtonText(\"再次点击以确认移除\")"
+                },
+                {
+                    "source": "setName(\"测试版主题列表\")",
+                    "target": "setName(\"测试版主题列表\")"
+                },
+                {
+                    "source": "setButtonText(\"添加测试版主题\")",
+                    "target": "setButtonText(\"添加测试版主题\")"
+                },
+                {
+                    "source": "setTooltip(\"删除此测试版主题\")",
+                    "target": "setTooltip(\"删除此测试版主题\")"
+                },
+                {
+                    "source": "setName(\"监控\")",
+                    "target": "setName(\"监控\")"
+                },
+                {
+                    "source": "setName(\"启用通知\")",
+                    "target": "setName(\"启用通知\")"
+                },
+                {
+                    "source": "setDesc(\"BRAT 将为其各种活动提供弹窗通知。关闭此选项意味着 BRAT 不会发送通知。\")",
+                    "target": "setDesc(\"BRAT 将为其各种活动提供弹窗通知。关闭此选项意味着 BRAT 不会发送通知。\")"
+                },
+                {
+                    "source": "setName(\"启用日志记录\")",
+                    "target": "setName(\"启用日志记录\")"
+                },
+                {
+                    "source": "setDesc(\"插件更新将被记录到日志文件中。\")",
+                    "target": "setDesc(\"插件更新将被记录到日志文件中。\")"
+                },
+                {
+                    "source": "setName(\"BRAT 日志文件位置\")",
+                    "target": "setName(\"BRAT 日志文件位置\")"
+                },
+                {
+                    "source": "setDesc(\"日志将保存到此文件。不要在文件名中添加 .md。\")",
+                    "target": "setDesc(\"日志将保存到此文件。不要在文件名中添加 .md。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"示例：BRAT日志\")",
+                    "target": "setPlaceholder(\"示例：BRAT日志\")"
+                },
+                {
+                    "source": "setName(\"启用详细日志记录\")",
+                    "target": "setName(\"启用详细日志记录\")"
+                },
+                {
+                    "source": "setDesc(\"在日志中获取更多信息。\")",
+                    "target": "setDesc(\"在日志中获取更多信息。\")"
+                },
+                {
+                    "source": "setName(\"调试模式\")",
+                    "target": "setName(\"调试模式\")"
+                },
+                {
+                    "source": "setDesc(\"原子弹级别的控制台日志记录。可用于故障排查和开发。\")",
+                    "target": "setDesc(\"原子弹级别的控制台日志记录。可用于故障排查和开发。\")"
+                },
+                {
+                    "source": "setName(\"个人访问令牌\")",
+                    "target": "setName(\"个人访问令牌\")"
+                },
+                {
+                    "source": "setPlaceholder(\"输入您的个人访问令牌\")",
+                    "target": "setPlaceholder(\"输入您的个人访问令牌\")"
+                },
+                {
+                    "source": "setTooltip(\"清除个人访问令牌\")",
+                    "target": "setTooltip(\"清除个人访问令牌\")"
+                },
+                {
+                    "source": "log(`正在加载 ${this.APP_NAME}`)",
+                    "target": "log(`正在加载 ${this.APP_NAME}`)"
+                },
+                {
+                    "source": "log(`正在卸载 ${this.APP_NAME}`)",
+                    "target": "log(`正在卸载 ${this.APP_NAME}`)"
+                },
+                {
+                    "source": "text:`权限范围：${e.currentScopes.join(\", \")}`",
+                    "target": "text:`权限范围：${e.currentScopes.join(\", \")}`"
+                },
+                {
+                    "source": "text:`速率限制：${e.rateLimit.remaining}/${e.rateLimit.limit}`",
+                    "target": "text:`速率限制：${e.rateLimit.remaining}/${e.rateLimit.limit}`"
+                },
+                {
+                    "source": "text:`有效前缀: ${(i=e.details.validPrefixes)==null?void 0:i.join(\", \")}`",
+                    "target": "text:`有效前缀: ${(i=e.details.validPrefixes)==null?void 0:i.join(\", \")}`"
+                },
+                {
+                    "source": "text:`所需权限范围：${(o=e.details.requiredScopes)==null?void 0:o.join(\", \")}`",
+                    "target": "text:`所需权限范围：${(o=e.details.requiredScopes)==null?void 0:o.join(\", \")}`"
+                },
+                {
+                    "source": "innerText=\"了解我的更多工作：\"",
+                    "target": "innerText=\"了解我的更多工作：\""
+                },
+                {
+                    "source": "text:`${e.version} ${e.prerelease?\"(预发布版本)\":\"\"}`",
+                    "target": "text:`${e.version} ${e.prerelease?\"(预发布版本)\":\"\"}`"
+                },
+                {
+                    "source": "text:\"isDesktopOnly: true\"",
+                    "target": "text:\"isDesktopOnly: true\""
+                },
+                {
+                    "source": "text:\"测试版主题的 GitHub 仓库：\"",
+                    "target": "text:\"测试版主题的 GitHub 仓库：\""
+                },
+                {
+                    "source": "name:\"插件：添加测试版插件（可指定版本或不指定）\"",
+                    "target": "name:\"插件：添加测试版插件（可指定版本或不指定）\""
+                },
+                {
+                    "source": "name:\"插件：检查所有测试版插件的更新并执行更新\"",
+                    "target": "name:\"插件：检查所有测试版插件的更新并执行更新\""
+                },
+                {
+                    "source": "name:\"插件：仅检查测试版插件的更新但不执行更新\"",
+                    "target": "name:\"插件：仅检查测试版插件的更新但不执行更新\""
+                },
+                {
+                    "source": "name:\"插件：选择单个插件版本进行更新\"",
+                    "target": "name:\"插件：选择单个插件版本进行更新\""
+                },
+                {
+                    "source": "name:\"插件：选择单个插件重新安装\"",
+                    "target": "name:\"插件：选择单个插件重新安装\""
+                },
+                {
+                    "source": "name:\"插件：重新启动已安装的插件\"",
+                    "target": "name:\"插件：重新启动已安装的插件\""
+                },
+                {
+                    "source": "name:\"插件：禁用插件 - 关闭\"",
+                    "target": "name:\"插件：禁用插件 - 关闭\""
+                },
+                {
+                    "source": "name:\"插件：启用插件 - 开启\"",
+                    "target": "name:\"插件：启用插件 - 开启\""
+                },
+                {
+                    "source": "name:\"插件：打开插件的 GitHub 仓库\"",
+                    "target": "name:\"插件：打开插件的 GitHub 仓库\""
+                },
+                {
+                    "source": "name:\"主题：打开主题（外观）的 GitHub 仓库\"",
+                    "target": "name:\"主题：打开主题（外观）的 GitHub 仓库\""
+                },
+                {
+                    "source": "name:\"插件：打开插件设置选项卡\"",
+                    "target": "name:\"插件：打开插件设置选项卡\""
+                },
+                {
+                    "source": "name:\"主题：从 GitHub 仓库获取测试版主题\"",
+                    "target": "name:\"主题：从 GitHub 仓库获取测试版主题\""
+                },
+                {
+                    "source": "name:\"主题：更新测试版主题\"",
+                    "target": "name:\"主题：更新测试版主题\""
+                },
+                {
+                    "source": "name:\"所有命令列表\"",
+                    "target": "name:\"所有命令列表\""
+                },
+                {
+                    "source": "text:'以下是通过“添加测试版插件”命令添加的测试版插件列表。你可以选择添加最新版本或固定版本。固定版本是基于其发布标签的特定插件版本。'",
+                    "target": "text:'以下是通过“添加测试版插件”命令添加的测试版插件列表。你可以选择添加最新版本或固定版本。固定版本是基于其发布标签的特定插件版本。'"
+                },
+                {
+                    "source": "text:\"点击插件旁边的‘编辑’按钮更改安装的版本，点击 x 按钮从列表中移除插件。\"",
+                    "target": "text:\"点击插件旁边的‘编辑’按钮更改安装的版本，点击 x 按钮从列表中移除插件。\""
+                },
+                {
+                    "source": "text:\"注意：\"",
+                    "target": "text:\"注意：\""
+                },
+                {
+                    "source": "text:\"从列表中移除不会删除插件，应在设置中的社区插件面板中进行删除。\"",
+                    "target": "text:\"从列表中移除不会删除插件，应在设置中的社区插件面板中进行删除。\""
+                },
+                {
+                    "source": "text:\"你的 GitHub 账户设置\"",
+                    "target": "text:\"你的 GitHub 账户设置\""
+                }
+            ]
+        }
+    }
+}
