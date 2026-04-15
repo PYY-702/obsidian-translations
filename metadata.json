@@ -1,1 +1,54 @@
-[]
+[
+    {
+        "id": "QrMv-cicsfXbfhyP527P4DVwFOi3jqTn",
+        "plugin": "obsidian42-brat",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.3.2",
+        "title": "BRAT",
+        "description": "BRAT Localization & Tweaks",
+        "hash": "56fd7e9d56fd7e9d56fd7e9d56fd7e9d",
+        "created_at": "2026-04-15T14:09:49.757Z",
+        "updated_at": "2026-04-15T14:09:49.757Z"
+    },
+    {
+        "id": "gt5bbAQTn-fj4XLIf4RA9HwfYpac1-o1",
+        "plugin": "obsidian-style-settings",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "2.0.0",
+        "supported_versions": "1.0.9",
+        "title": "Style Settings",
+        "description": "Offers controls for adjusting theme, plugin, and snippet CSS variables.",
+        "hash": "0b757fd80b757fd80b757fd80b757fd8",
+        "created_at": "2026-04-15T14:09:49.758Z",
+        "updated_at": "2026-04-15T14:09:49.758Z"
+    },
+    {
+        "id": "Ym8CD12-Y-uEyeFmsfnvn4KbMyVHLFWy",
+        "plugin": "tray",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "0.3.5",
+        "title": "Tray",
+        "description": "Tray Localization & Tweaks",
+        "hash": "3ae76a213ae76a213ae76a213ae76a21",
+        "created_at": "2026-04-15T14:09:49.756Z",
+        "updated_at": "2026-04-15T14:09:49.756Z"
+    },
+    {
+        "id": "gdxAy3LLbiMUIkeayw09C9ZeWkzsR2KE",
+        "plugin": "templater-obsidian",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "2.0.0",
+        "supported_versions": "2.12.1",
+        "title": "Templater",
+        "description": "Create and use templates",
+        "hash": "739210a1739210a1739210a1739210a1",
+        "created_at": "2026-04-15T14:09:49.759Z",
+        "updated_at": "2026-04-15T14:09:49.759Z"
+    }
+]
